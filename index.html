@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exer9</title>
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      padding: 20px;
+    }
+
+    /* Seletores de atributo */
+    input[type="text"] {
+      border: 1px solid blue;
+      margin-bottom: 10px;
+    }
+
+    /* Pseudo-classes */
+    a:hover {
+      color: red;
+    }
+
+    /* Propriedades de texto e layout */
+    .container {
+      text-align: center;
+      background-color: #eee;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+
+    /* Box Model */
+    .box {
+      width:auto;
+      background-color: #9e9c9c;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    /* Flexbox */
+    .flex-container {
+     grid-template-columns: repeat(2, 1fr);
+     display: grid;
+     background-color: #4169e1;
+     text-align: left;
+     color: white;
+     padding: 10px;
+    }
+
+    /* Grid */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+      grid-gap: 10px; /* Espaçamento entre as células */
+      background-color: #7e7c7c;
+      padding: 20px;
+    }
+
+    .grid-item {
+      background-color: #ccc;
+      padding: 20px;
+      text-align: center;
+    }
+
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header">Explorando os Fundamentos do CSS</header>
+  <!-- Inputs de texto -->
+  <input type="text" placeholder="Nome">
+  <input type="text" placeholder="Email">
+
+  <!-- Link -->
+  <a href="#">Link</a>
+
+  <!-- Divisão para texto e layout -->
+  <div class="container">
+    <p>Texto Centralizado com Arial.</p>
+  </div>
+
+  <!-- Box Model -->
+  <header>
+    <h3>Box Model em Profundidade</h3>
+  </header>
+  <div>
+    <div class="box">Margem Colapsada 1</div>
+    <div class="box">Margem Colapsada 2</div>
+  </div>
+
+  <!-- Flexbox -->
+  <header>
+    <h3>Flex Box para Layouts Dinâmicos</h3>
+  </header>
+  <div class="flex-container">
+    <div class="flex-item">Item 1</div>
+    <div class="flex-item">Item 2</div>
+  </div>
+
+  <!-- Grid -->
+  <h3>Grid para Estruturas Complexas</h3>
+  <div class="grid-container">
+    <div class="grid-item">Área 1</div>
+    <div class="grid-item">Área 2</div>
+  </div>
+
+  <!-- Imagem -->
+  <img src="https://www.rbsdirect.com.br/filestore/4/9/8/3/4/9/4_c6591cd460d2216/4943894_f6a125f3c583d63.jpg?w=700"
+    alt="Imagem de exemplo">
+
+</body>
+
+</html>
